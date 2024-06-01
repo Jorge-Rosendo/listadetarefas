@@ -1,8 +1,11 @@
-# React + Vite
+# Lista de Tarefas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto desenvolvido em React. 
+Consiste em uma aplicação web onde os usuários podem adicionar, remover e marcar tarefas como concluídas.
 
-Currently, two official plugins are available:
+Componentes: 
+Todo: Exibe as tarefas. Retorna um objeto contendo a tarefa, categoria, botôes para concluir e excluir
+TodoForm: Um formulário que permite aos usuários adicionar novas tarefas à lista.
+Search: Componente para realizar buscas na lista de tarefas.
+Filter: Componente para filtrar as tarefas com base em sua conclusão e ordená-las.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
